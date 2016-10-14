@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27611D1C55C65DD28F8FFE30 /* Pods_Payonline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5642D1261BB25EC9C247591 /* Pods_Payonline.framework */; };
+		5E76C7C31DAB5E7B006B9EF8 /* PayOnline3DSQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76C7C21DAB5E7B006B9EF8 /* PayOnline3DSQuery.swift */; };
+		5E76C7C71DAB6FFA006B9EF8 /* PayOnline3DSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76C7C61DAB6FFA006B9EF8 /* PayOnline3DSData.swift */; };
 		5E7EDD471DA7779100110F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD461DA7779100110F54 /* AppDelegate.swift */; };
 		5E7EDD491DA7779100110F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD481DA7779100110F54 /* ViewController.swift */; };
 		5E7EDD4C1DA7779100110F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7EDD4A1DA7779100110F54 /* Main.storyboard */; };
@@ -15,6 +18,11 @@
 		5E7EDD541DA7779100110F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7EDD521DA7779100110F54 /* LaunchScreen.storyboard */; };
 		5E7EDD5F1DA7779100110F54 /* PayonlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD5E1DA7779100110F54 /* PayonlineTests.swift */; };
 		5E7EDD6A1DA7779100110F54 /* PayonlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD691DA7779100110F54 /* PayonlineUITests.swift */; };
+		5E7EDD791DA7780A00110F54 /* PayOnline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD781DA7780A00110F54 /* PayOnline.swift */; };
+		5E7EDD7B1DA7838600110F54 /* PayOnlineTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD7A1DA7838600110F54 /* PayOnlineTools.swift */; };
+		5E7EDD7D1DA78F8800110F54 /* PayOnlineAuthQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD7C1DA78F8800110F54 /* PayOnlineAuthQuery.swift */; };
+		5E7EDD7F1DA793B400110F54 /* PayOnlineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD7E1DA793B400110F54 /* PayOnlineError.swift */; };
+		5E7EDD851DA7B2DA00110F54 /* PayOnlineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EDD841DA7B2DA00110F54 /* PayOnlineResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4878CE697C5DBD848EF90BE5 /* Pods-Payonline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payonline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Payonline/Pods-Payonline.debug.xcconfig"; sourceTree = "<group>"; };
+		5E76C7C21DAB5E7B006B9EF8 /* PayOnline3DSQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOnline3DSQuery.swift; sourceTree = "<group>"; };
+		5E76C7C61DAB6FFA006B9EF8 /* PayOnline3DSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOnline3DSData.swift; sourceTree = "<group>"; };
 		5E7EDD431DA7779100110F54 /* Payonline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payonline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7EDD461DA7779100110F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E7EDD481DA7779100110F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,14 @@
 		5E7EDD651DA7779100110F54 /* PayonlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayonlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7EDD691DA7779100110F54 /* PayonlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayonlineUITests.swift; sourceTree = "<group>"; };
 		5E7EDD6B1DA7779100110F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7EDD781DA7780A00110F54 /* PayOnline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOnline.swift; sourceTree = "<group>"; };
+		5E7EDD7A1DA7838600110F54 /* PayOnlineTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOnlineTools.swift; sourceTree = "<group>"; };
+		5E7EDD7C1DA78F8800110F54 /* PayOnlineAuthQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOnlineAuthQuery.swift; sourceTree = "<group>"; };
+		5E7EDD7E1DA793B400110F54 /* PayOnlineError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOnlineError.swift; sourceTree = "<group>"; };
+		5E7EDD801DA7AFB500110F54 /* Payonline-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Payonline-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E7EDD841DA7B2DA00110F54 /* PayOnlineResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOnlineResponse.swift; sourceTree = "<group>"; };
+		AE1B7A0512E0CA02CAD51253 /* Pods-Payonline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payonline.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payonline/Pods-Payonline.release.xcconfig"; sourceTree = "<group>"; };
+		F5642D1261BB25EC9C247591 /* Pods_Payonline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payonline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27611D1C55C65DD28F8FFE30 /* Pods_Payonline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E76C7C41DAB5E8B006B9EF8 /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				5E7EDD7C1DA78F8800110F54 /* PayOnlineAuthQuery.swift */,
+				5E76C7C21DAB5E7B006B9EF8 /* PayOnline3DSQuery.swift */,
+			);
+			name = Queries;
+			sourceTree = "<group>";
+		};
+		5E76C7C51DAB5FC6006B9EF8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5E7EDD7A1DA7838600110F54 /* PayOnlineTools.swift */,
+				5E7EDD7E1DA793B400110F54 /* PayOnlineError.swift */,
+				5E7EDD801DA7AFB500110F54 /* Payonline-Bridging-Header.h */,
+				5E7EDD841DA7B2DA00110F54 /* PayOnlineResponse.swift */,
+				5E76C7C61DAB6FFA006B9EF8 /* PayOnline3DSData.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		5E7EDD3A1DA7779100110F54 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				5E7EDD5D1DA7779100110F54 /* PayonlineTests */,
 				5E7EDD681DA7779100110F54 /* PayonlineUITests */,
 				5E7EDD441DA7779100110F54 /* Products */,
+				87B38935A39382C23B062FEF /* Pods */,
+				AE9655AB8164152D94E3671E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,7 @@
 		5E7EDD451DA7779100110F54 /* Payonline */ = {
 			isa = PBXGroup;
 			children = (
+				5E7EDD771DA777F300110F54 /* Payonline */,
 				5E7EDD461DA7779100110F54 /* AppDelegate.swift */,
 				5E7EDD481DA7779100110F54 /* ViewController.swift */,
 				5E7EDD4A1DA7779100110F54 /* Main.storyboard */,
@@ -128,6 +172,33 @@
 			path = PayonlineUITests;
 			sourceTree = "<group>";
 		};
+		5E7EDD771DA777F300110F54 /* Payonline */ = {
+			isa = PBXGroup;
+			children = (
+				5E76C7C51DAB5FC6006B9EF8 /* Helpers */,
+				5E76C7C41DAB5E8B006B9EF8 /* Queries */,
+				5E7EDD781DA7780A00110F54 /* PayOnline.swift */,
+			);
+			name = Payonline;
+			sourceTree = "<group>";
+		};
+		87B38935A39382C23B062FEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4878CE697C5DBD848EF90BE5 /* Pods-Payonline.debug.xcconfig */,
+				AE1B7A0512E0CA02CAD51253 /* Pods-Payonline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE9655AB8164152D94E3671E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5642D1261BB25EC9C247591 /* Pods_Payonline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E7EDD6E1DA7779100110F54 /* Build configuration list for PBXNativeTarget "Payonline" */;
 			buildPhases = (
+				0546809FE852B76433E3C610 /* [CP] Check Pods Manifest.lock */,
 				5E7EDD3F1DA7779100110F54 /* Sources */,
 				5E7EDD401DA7779100110F54 /* Frameworks */,
 				5E7EDD411DA7779100110F54 /* Resources */,
+				1EB4671ECB3380143BB288F1 /* [CP] Embed Pods Frameworks */,
+				5F370057F5798A2E29F0CEC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +271,7 @@
 					5E7EDD421DA7779100110F54 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = P993BJWE94;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					5E7EDD591DA7779100110F54 = {
@@ -260,14 +335,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0546809FE852B76433E3C610 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1EB4671ECB3380143BB288F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Payonline/Pods-Payonline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F370057F5798A2E29F0CEC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Payonline/Pods-Payonline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E7EDD3F1DA7779100110F54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E76C7C71DAB6FFA006B9EF8 /* PayOnline3DSData.swift in Sources */,
+				5E7EDD851DA7B2DA00110F54 /* PayOnlineResponse.swift in Sources */,
 				5E7EDD4F1DA7779100110F54 /* Payonline.xcdatamodeld in Sources */,
+				5E7EDD7B1DA7838600110F54 /* PayOnlineTools.swift in Sources */,
+				5E7EDD791DA7780A00110F54 /* PayOnline.swift in Sources */,
 				5E7EDD491DA7779100110F54 /* ViewController.swift in Sources */,
+				5E7EDD7D1DA78F8800110F54 /* PayOnlineAuthQuery.swift in Sources */,
 				5E7EDD471DA7779100110F54 /* AppDelegate.swift in Sources */,
+				5E76C7C31DAB5E7B006B9EF8 /* PayOnline3DSQuery.swift in Sources */,
+				5E7EDD7F1DA793B400110F54 /* PayOnlineError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,27 +547,34 @@
 		};
 		5E7EDD6F1DA7779100110F54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4878CE697C5DBD848EF90BE5 /* Pods-Payonline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P993BJWE94;
 				INFOPLIST_FILE = Payonline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kz.Payonline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "Payonline/Payonline-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		5E7EDD701DA7779100110F54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1B7A0512E0CA02CAD51253 /* Pods-Payonline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P993BJWE94;
 				INFOPLIST_FILE = Payonline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kz.Payonline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "Payonline/Payonline-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -518,6 +655,7 @@
 				5E7EDD701DA7779100110F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E7EDD711DA7779100110F54 /* Build configuration list for PBXNativeTarget "PayonlineTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +664,7 @@
 				5E7EDD731DA7779100110F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E7EDD741DA7779100110F54 /* Build configuration list for PBXNativeTarget "PayonlineUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +673,7 @@
 				5E7EDD761DA7779100110F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
