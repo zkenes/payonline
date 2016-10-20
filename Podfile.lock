@@ -1,18 +1,15 @@
 PODS:
   - AEXML (3.0.0)
   - Alamofire (3.5.1)
-  - SwiftWebVC (0.1.1)
 
 DEPENDENCIES:
   - AEXML (~> 3.0)
   - Alamofire (~> 3.0)
-  - SwiftWebVC
 
 SPEC CHECKSUMS:
   AEXML: 716fb0a8decba4a3517324a71fee3685b30233d2
   Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
-  SwiftWebVC: b5c805a2948a4602443b0610f7072f0c653a0b56
 
-PODFILE CHECKSUM: 83596c0a7ae2ef33d187ac4bc1b2aaf548ccfc71
+PODFILE CHECKSUM: a007f2f433dbe20e2f4aec01c9c4755bf851d524
 
 COCOAPODS: 1.0.1
