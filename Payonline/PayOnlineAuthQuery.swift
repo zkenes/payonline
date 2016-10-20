@@ -142,6 +142,14 @@ class PayOnlineAuthQuery: NSObject {
                         $0.result = xmlDoc.root["result"].stringValue
                         $0.status = xmlDoc.root["status"].stringValue
                     }
+//                    if let threeDSecureDoc = xmlDoc.root["threedSecure"]{
+//                        let data = PayOnline3DSData {
+//                            $0.pareq = threeDSecureDoc["pareq"].stringValue
+//                            $0.acsurl = threeDSecureDoc["acsurl"].stringValue
+//                            $0.pd = threeDSecureDoc["pd"].stringValue
+//                        }
+//                        response.threeDsData = data
+//                    }
                     closure(response, nil)
                                         
                 }

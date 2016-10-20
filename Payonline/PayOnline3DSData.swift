@@ -28,4 +28,9 @@ class PayOnline3DSData: NSObject {
         }
         return "\(transactionId);\(pd)"
     }
+    
+    convenience init(closure: (PayOnline3DSData) -> (Void)) {
+        self.init()
+        closure(self)
+    }
 }
