@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftWebVC
+import SVWebViewController
 
 class PayOnline3DSQuery: NSObject {
     var threeDSData: PayOnline3DSData?
@@ -26,7 +26,30 @@ class PayOnline3DSQuery: NSObject {
             closure(PayOnlineError.error(FormatError))
             return
         }
-        let request = NSURLRequest(URL: url)
         
+        let params: [String:String] = [
+            "PaReq":pareq,
+            "MD":md,
+            "TermUrl":"http://getimbra.com"
+        ]
+        let requestString = String.urlEncodedStringFromDictionary(params)
+        let request = NSMutableURLRequest(URL: url)
+        request.setValue("application/x-www-form-urlencoded; charset=utf-8", forHTTPHeaderField: "Content-Type")
+        request.HTTPMethod = "POST"
+        request.HTTPBody = requestString.dataUsingEncoding(NSUTF8StringEncoding)
+        
+        print("\(request)")
+    }
+}
+extension String {
+    func urlEncode() -> String?{
+        return self.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
+    }
+    static func urlEncodedStringFromDictionary(params: [String: String]) -> String{
+        var paramsList: [String] = []
+        for (key, value) in params {
+            paramsList.append("\(key.urlEncode()!)=\(value.urlEncode()!)")
+        }
+        return paramsList.joinWithSeparator("$")
     }
 }
