@@ -56,8 +56,6 @@ public let ProccessingServerError = 5396
 public let CallIssuer = 5401
 public let Incorrect3DSecureData = 5410
 public let IncorrectCvv2Cvc2 = 5411
-//public let CardExpiredMustEliminate = 5501
-//public let DeclinedByIssuerMust = 5502
 public let GatewayServerError = 5809
 
 public let ThreeDSecureRequired = 6001

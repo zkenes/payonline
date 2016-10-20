@@ -17,11 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         
-        
         let configuration = PayOnlineConfiguration {
             $0.merchantId = 75183
-            $0.privateSecurityKey = "baf994a7-77a9-4e9c-89c4-13c1e593a46e"
-            $0.paymentKey = "df3d6705-0ba8-408b-a1c7-69c05fce1ea1"
+            $0.privateSecurityKey = "88a4d228-9a56-4818-a3c5-edaf4c37d383"
+            $0.paymentKey = "2bf266aa-65af-4ce7-a4f5-ef9268f030ee"
         }
         PayOnline.initialize(with: configuration)
         
@@ -38,17 +37,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            $0.cardExpDate = "0721"
 //            $0.city = "Almaty"
 //        }
+        
         let query = PayOnlineAuthQuery{
-            $0.orderId = "1234"
-            $0.amount = NSDecimalNumber(double: 1.55)
+            $0.orderId = "123446"
+            $0.amount = NSDecimalNumber(double: 22.49)
             $0.currency = .KZT
             $0.ip = "127.0.0.1"
             $0.email = "test@payonline.com"
-            $0.cardHolderName = "KHAKIM YESSENZHANOV"
-//            $0.cardCVV = "319"
-            $0.cardCVV = "111"
-            $0.cardNumber = "5406520002061139"
-            $0.cardExpDate = "0519"
+            $0.cardHolderName = "MARAT SHAKEN"
+            $0.cardCVV = "300"
+//            $0.cardCVV = "111"
+            $0.cardNumber = "4111111111111111"
+            $0.cardExpDate = "1224"
             $0.city = "Almaty"
         }
         

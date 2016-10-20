@@ -11,7 +11,7 @@ import UIKit
 class PayOnline: NSObject {
     static var configs: PayOnlineConfiguration?
     
-    public class func initialize(with configuration: PayOnlineConfiguration){
+    internal class func initialize(with configuration: PayOnlineConfiguration){
         super.initialize()
         configs = configuration
     }

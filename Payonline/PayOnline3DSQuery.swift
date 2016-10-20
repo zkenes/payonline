@@ -9,5 +9,22 @@
 import UIKit
 
 class PayOnline3DSQuery: NSObject {
+    var threeDSData: PayOnline3DSData?
     
+    func authorize(closure: (PayOnlineError?) -> Void){
+        guard
+            let threeDSData = threeDSData,
+            let pareq = threeDSData.pareq,
+            let acsurl = threeDSData.acsurl,
+            let md = threeDSData.md
+        else {
+            closure(PayOnlineError.error(FormatError))
+            return
+        }
+        guard let url = NSURL(string: acsurl) else {
+            closure(PayOnlineError.error(FormatError))
+            return
+        }
+        let request = NSURLRequest(URL: url)
+    }
 }

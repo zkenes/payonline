@@ -8,6 +8,7 @@ target 'Payonline' do
   # Pods for Payonline
 pod 'Alamofire', '~> 3.0'
 pod 'AEXML', '~> 3.0'
+pod 'SwiftWebVC'
 
 end
 

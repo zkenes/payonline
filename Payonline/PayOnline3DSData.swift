@@ -18,4 +18,14 @@ class PayOnline3DSData: NSObject {
     var acsurl: String?
     /** Информация о мерчанте */
     var pd: String?
+    /** */
+    var transactionId: Int?
+    /** */
+    var md: String? {
+        guard let transactionId = transactionId,
+            let pd = pd else {
+            return nil
+        }
+        return "\(transactionId);\(pd)"
+    }
 }
